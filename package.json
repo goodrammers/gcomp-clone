@@ -1,11 +1,20 @@
 {
     "name": "gcomp-clone",
-    "version": "0.9.1",
+    "version": "1.0.0",
     "license": "MIT",
     "dependencies": {
         "lodash.clonedeep": "^4.5.0",
         "lodash.isequal": "^4.5.0"
     },
+    "description": "A Vue 3 composable for deep cloning and change detection",
+    "keywords": [
+        "vue",
+        "vue3",
+        "composable",
+        "state-management",
+        "change-detection",
+        "form-management"
+    ],
     "peerDependencies": {
         "vue": "^3.2.25"
     },
