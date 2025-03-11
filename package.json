@@ -1,0 +1,45 @@
+{
+    "name": "gcomp-clone",
+    "version": "0.9.1",
+    "license": "MIT",
+    "dependencies": {
+        "lodash.clonedeep": "^4.5.0",
+        "lodash.isequal": "^4.5.0"
+    },
+    "peerDependencies": {
+        "vue": "^3.2.25"
+    },
+    "main": "dist/gcomp-clone.cjs.js",
+    "module": "dist/gcomp-clone.es.js",
+    "types": "dist/types/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/goodrammers/gcomp-clone"
+    },
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite --config demo/vite.config.ts",
+        "type-check": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.17.16",
+        "@types/node": "^22.13.1",
+        "@typescript-eslint/eslint-plugin": "^8.24.0",
+        "@typescript-eslint/parser": "^8.24.0",
+        "@vitejs/plugin-vue": "^5.2.1",
+        "@vue/eslint-config-prettier": "^9.0.0",
+        "@vue/eslint-config-typescript": "^13.0.0",
+        "eslint": "^8.57.1",
+        "eslint-config-prettier": "^10.0.1",
+        "eslint-plugin-prettier": "^5.2.3",
+        "eslint-plugin-vue": "^9.32.0",
+        "prettier": "^3.5.0",
+        "typescript": "^5.7.3",
+        "vite": "^6.1.0",
+        "vite-plugin-dts": "^4.5.0",
+        "vue": "3.2.25"
+    }
+}
